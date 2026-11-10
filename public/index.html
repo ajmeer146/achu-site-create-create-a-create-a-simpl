@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Professional Corporate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">AuthPortal</a>
+      <nav class="nav-links">
+        <a href="#" class="nav-link">Sign In</a>
+        <a href="#" class="nav-link">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="login-page">
+    <div class="container">
+      <section class="login-card">
+        <h2 class="login-title">Sign In to Your Account</h2>
+        
+        <form id="login-form" class="login-form">
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" name="password" class="form-input" placeholder="Enter your password" required>
+          </div>
+          
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" class="remember-input"> Remember Me
+            </label>
+            <a href="#" class="forgot-link">Forgot Password?</a>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+        </form>
+        
+        <div class="divider">
+          <span class="divider-text">or continue with</span>
+        </div>
+        
+        <form id="signup-form" class="secondary-form" style="display: none;">
+          <h3 class="signup-title">Create Account</h3>
+          
+          <div class="form-group">
+            <label for="signup-email" class="form-label">Email Address</label>
+            <input type="email" id="signup-email" name="email" class="form-input" placeholder="Enter your email" required>
+          </div>
+          
+          <div class. form-group">
+            <label for="signup-password" class="form-label">Password</label>
+            <input type="password" id="signup-password" name="password" class="form-input" placeholder="Create a password" required>
+          </div>
+          
+          <button type="submit" class="btn btn-secondary btn-block">Create Account</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 AuthPortal. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
